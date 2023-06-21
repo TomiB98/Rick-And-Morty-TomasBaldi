@@ -50,7 +50,7 @@ const Card = ({ id, name, status, species, gender, origin, image, onClose }) => 
                   )
                }
                
-               <button className={style.buttonInfo} onClick={handleNavigate}>More Info..</button>
+               <button className={style.buttonInfo} onClick={handleNavigate}>More Info.</button>
             </div>
             <p>Status: {status}</p>
             <p>Species: {species}</p>
